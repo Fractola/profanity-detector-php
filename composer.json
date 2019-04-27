@@ -1,8 +1,7 @@
 {
-    "name": "mnapoli/myproject",
-    "description": "Give it a nice description!",
-    "keywords": [],
-    "homepage": "http://example.com",
+    "name": "Fractola/profanity-detector-php",
+    "description": "Detect bad word in any string, fast",
+    "keywords": [php,vulgar,profane,bad_words,dirty_words,dirty_talk],
     "license": "MIT",
     "type": "library",
     "autoload": {
@@ -16,9 +15,9 @@
         }
     },
     "require": {
-        "php": "^7.2"
+        "php": "=>7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^5.4"
     }
 }
