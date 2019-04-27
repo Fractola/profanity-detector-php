@@ -21,12 +21,9 @@ it's a simple project with little overhead run effiently and can be extented by 
 
 ## Usage
 
-Describe how to use the project. A gif or a short code example is the best
-way to show how it works. Also keep paragraphs short and sentences simple: not
-everybody speaks english well.
+Here is a simple usage of the function.
 
-For the sake of the example here is how you can use this project template
-as a basis for your own repository:
+Just subsititute the string for the string you want analysed
 
 ```bash
 $string = "If you go home with somebody, and they don't have fucken books, don't fuck 'em!";
