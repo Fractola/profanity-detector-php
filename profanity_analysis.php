@@ -19,8 +19,6 @@ function hate_word(&$string)
         }
     }
     foreach ($badword as $word => $word) {
-            echo "This word, <b>$word</b> is a swear word please change it!";
-            echo '<br>';
             $str = str_replace($word,"*****", $str);
     }
     
