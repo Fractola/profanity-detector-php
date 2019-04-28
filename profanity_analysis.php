@@ -27,13 +27,13 @@ function hate_word(&$string)
 }
 
 function get_word_counts($phrases) {
-   $counts = array();
-       for($i=0; $i < sizeof($phrases); $i++)
-    {
-      $phrases[$i] = preg_replace("#[^a-zA-Z\-]#", "", $phrases[$i]);
+    $counts = array();
+    for($i=0; $i < sizeof($phrases); $i++)
+        {
+            $phrases[$i] = preg_replace("#[^a-zA-Z\-]#", "", $phrases[$i]);
             @$counts[$phrases[$i]] += 1;
         
-    }
+        }
    
     return $counts;
 }
