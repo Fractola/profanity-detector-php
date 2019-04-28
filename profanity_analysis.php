@@ -2,7 +2,7 @@
 
 function hate_word(&$string)
 { 
-    $str = str_replace(array("\r", "\n"), ' ', $str);
+    $str = str_replace(array("\r", "\n"), ' ', $string);
     $bad = array('word','ass','ass fuck','ass hole','assfucker','asshole','assshole','bastard','bitch','black    cock','bloody hell','boong','cock','cockfucker','cocksuck','cocksucker','coon','coonnass','crap','cunt','cyberfuck','damn','darn','dick','dirty','douche','dummy','erect','erection','erotic','escort','fag','faggot','fuck','Fuck off','fuck you','fuckass','fuckhole','fuckhole','god damn','gook','hard core','hardcore','anal','anus','arse','homoerotic','hore','lesbian','lesbians','mother fucker','motherfuck','motherfucker','negro','nigger','orgasim','orgasm','penis','penisfucker','piss','piss off','porn','porno','pornography','pussy','retard','sadist','sex','sexy','shit','slut','son of a bitch','suck','tits','viagra','whore','xxx');
     $piece = explode(" ",$str);
     $badword = array();
