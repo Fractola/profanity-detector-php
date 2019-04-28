@@ -46,7 +46,6 @@ $counts = get_word_counts($hate_word);
         
 if (!empty($counts)) 
 {
-        
         foreach ($counts as $word => $word) 
         {
             echo "This word, <b>$word</b> is a swear word please change it!";
