@@ -20,7 +20,7 @@ function hate_word(&$string)
     }
     foreach ($badword as $word => $word) 
     {
-            $string = str_replace($word,"*****", $str);
+            $string = str_replace($word,"*****", $string);
     }
    
     return $badword;
