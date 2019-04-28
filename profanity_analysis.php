@@ -22,8 +22,7 @@ function hate_word(&$string)
     {
             $str = str_replace($word,"*****", $str);
     }
-    
-
+   
     return $badword;
 }
 
@@ -55,7 +54,6 @@ if (!empty($counts))
             echo '<br>';
             echo $string;
 }
-
 
 
 ?>
