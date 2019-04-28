@@ -25,6 +25,19 @@ function hate_word(&$string)
 
     return $badword;
 }
+
+function get_word_counts($phrases) {
+   $counts = array();
+       for($i=0; $i < sizeof($phrases); $i++)
+    {
+      $phrases[$i] = preg_replace("#[^a-zA-Z\-]#", "", $phrases[$i]);
+            @$counts[$phrases[$i]] += 1;
+        
+    }
+   
+    return $counts;
+}
+
 $string = "If you go home with somebody, and they don't have fucken books, don't fuck 'em!";
 $hate_word = hate_word(strtolower($string)); 
 $counts = get_word_counts($hate_word);
