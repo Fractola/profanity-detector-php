@@ -26,7 +26,8 @@ function hate_word(&$string)
     return $badword;
 }
 
-function get_word_counts($phrases) {
+function get_word_counts($phrases)
+{
     $counts = array();
     for($i=0; $i < sizeof($phrases); $i++)
         {
