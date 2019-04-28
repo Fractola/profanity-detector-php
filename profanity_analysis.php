@@ -44,9 +44,11 @@ $string = "If you go home with somebody, and they don't have fucken books, don't
 $hate_word = hate_word(strtolower($string)); 
 $counts = get_word_counts($hate_word);
         
-if (!empty($counts)) {
+if (!empty($counts)) 
+{
         
-        foreach ($counts as $word => $word) {
+        foreach ($counts as $word => $word) 
+        {
             echo "This word, <b>$word</b> is a swear word please change it!";
             echo '<br>';
         }
