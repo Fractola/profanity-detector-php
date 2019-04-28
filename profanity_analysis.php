@@ -18,7 +18,8 @@ function hate_word(&$string)
             }
         }
     }
-    foreach ($badword as $word => $word) {
+    foreach ($badword as $word => $word) 
+    {
             $str = str_replace($word,"*****", $str);
     }
     
